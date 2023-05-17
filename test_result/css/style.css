@@ -1,0 +1,65 @@
+body{
+    list-style-type:none;
+    margin: 0px;
+}
+
+h2 {
+    padding: 0px 20px;
+}
+
+.box {
+    padding: 0px 15px;
+}
+
+.put_box {
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 50px;
+    position: relative;
+}
+
+.result_box {
+    padding:10px 25px;
+    position: absolute;
+}
+
+.red {
+    color: red;
+    display: inline-block;
+}
+
+.line {
+    border-top: 1px dashed #bbb;
+}
+
+.students {
+    position: absolute;
+    background-color: #f1f1f1;
+    top: 112px;
+    padding: 20px 30px;
+    width: 100%;
+    height: 100%;
+    left: 75%;
+    line-height: 40px;
+}
+
+.link_style{
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #0033cc;
+}
+.link_style:hover{
+  text-decoration: underline;
+  color: #002080;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px;
+    background: #000000;
+    color: #ffffff;
+    line-height: 1em;
+  }
